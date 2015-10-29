@@ -43,9 +43,9 @@
 #$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/core_intermediates)
 #$(call add-clean-step, find $(OUT_DIR) -type f -name "IGTalkSession*" -print0 | xargs -0 rm -f)
 #$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/*)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib/libwebviewchromium.so)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib64/libwebviewchromium.so)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/webview)
+#$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib/libwebviewchromium.so)
+#$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib64/libwebviewchromium.so)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/WebViewGoogle)
 
 # ******************************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST ABOVE THIS BANNER
